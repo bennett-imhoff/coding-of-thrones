@@ -1,0 +1,112 @@
+main{
+    margin-top:15%;
+}
+
+.imagen-curso{
+    width:80%;
+    padding:20px 0 0 0;
+}
+
+.titulo-curso{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.descripcion-curso, .profesor-curso, .tiempo-curso, .precio-curso{
+    padding:0 15px;
+    font-size:18px;
+}
+
+.profesor-curso span, .tiempo-curso span, .precio-curso span{
+    font-weight: bold;
+}
+
+.precio-curso{
+    background-color: rgb(202, 114, 114);
+    width:90%;
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:15px;
+    color:rgb(73, 5, 5);
+}
+
+.boton-inscripcion, .boton-informacion{
+    width:35%;
+    margin:0 5px;
+}
+
+.mi-footer{
+    margin-top:20px;
+    font-size:14px;
+}
+
+@media only screen and (min-width:600px){
+    .imagen-curso{
+        width:60%;
+    }
+    
+    .titulo-curso{
+        margin:30px;
+    }
+    
+    .descripcion-curso, .profesor-curso, .tiempo-curso, .precio-curso{
+        padding:0 7%;
+        font-size:23px;
+    }
+    
+    .precio-curso{
+        width:85%;
+        margin-left:7%;
+    }
+    
+    .boton-inscripcion, .boton-informacion{
+        width:35%;
+        margin:5% 3%;
+        font-size: 23px;
+    }
+    
+    .mi-footer{
+        margin-top:60px;
+        font-size:16px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .nav-item{
+        margin:0px 15px;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    main{
+        margin-top:5%;
+    }
+
+    .imagen-curso{
+        width:40%;
+    }
+    
+    .titulo-curso{
+        margin:20px;
+        font-size:30px;
+    }
+    
+    .descripcion-curso, .profesor-curso, .tiempo-curso, .precio-curso{
+        padding:0 10%;
+    }
+    
+    .precio-curso{
+        width:75%;
+        padding:0 1%;
+        margin-left:10%;
+    }
+    
+    .boton-inscripcion, .boton-informacion{
+        width:20%;
+        margin:2% 3%;
+    }
+    
+    .mi-footer{
+        margin-top:40px;
+    }
+}

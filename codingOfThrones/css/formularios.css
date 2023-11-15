@@ -1,0 +1,98 @@
+main{
+    margin-top:80px;
+}
+
+.titulo-pagina{
+    text-align: center;
+    margin-top:15px;
+}
+
+.subtitulo-pagina{
+    margin-left:20px;
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.formulario{
+    width:90%;
+    border: 1px solid;
+    padding:20px;
+    margin:auto;
+}
+
+input, textarea, select{
+    width:100%;
+    margin:10px 0;
+}
+
+textarea{
+    min-height:100px;
+}
+
+.boton-realizar{
+    margin:20px;
+}
+
+.mi-footer{
+    margin-top:20px;
+    font-size:14px;
+}
+
+@media only screen and (min-width:600px){
+    .subtitulo-pagina{
+        margin-left:50px;
+        margin-bottom:50px;
+        font-size:20px;
+    }
+    
+    .formulario{
+        width:80%;
+        padding:50px 40px;
+    }
+    
+    .boton-realizar{
+        font-size:20px;
+    }
+    
+    .mi-footer{
+        font-size:18px;
+        position: fixed;
+        width: 100%;
+        bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .nav-item{
+        margin:0px 15px;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .subtitulo-pagina{
+        margin:30px 10%;
+        font-size:20px;
+    }
+    
+    .formulario{
+        width:80%;
+        padding:50px 40px;
+    }
+    
+    .boton-realizar{
+        font-size:20px;
+    }
+    
+    .mi-footer{
+        position: relative;
+        margin-top:50px;
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .mi-footer{
+        position: fixed;
+        bottom: 30px;
+    }
+}
